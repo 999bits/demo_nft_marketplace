@@ -1,16 +1,10 @@
-# 🖼️ NFT Marketplace
+# NFT Marketplace
 
 [![https://img.shields.io/badge/made%20with-hardhat-yellow](https://img.shields.io/badge/made%20with-hardhat-yellow)](https://hardhat.org/)
 [![https://img.shields.io/badge/made%20with-nextjs-blue](https://img.shields.io/badge/made%20with-nextjs-blue)](https://nextjs.org/)
 
 This is a fullstack DApp NFT Marketplace built as a study project to learn more about blockchain and smart contract development.  
 Made with NodeJS, Hardhat, Solidity, ReactJS, NextJS and Vercel.
-
-## Demo
-
-![Demo](https://github.com/Markkop/nft-marketplace/blob/main/demo.gif)
-
-Checkout the live demo: https://nft-marketplace-markkop.vercel.app/
 
 ---
 
@@ -138,16 +132,3 @@ _\* They're usually caused by incorrect contract addresses and wrong default gas
 Try changing `hardhat.config.js` mumbai gas values.  
 I'm using the ones I've found here:  
 https://forum.moralis.io/t/deploy-to-polygon-matic-mumbai-fails/700
-
-## Nouce is too high
-
-Reset your Metamask account transaction history.  
-Find out more on:  
-https://medium.com/@thelasthash/solved-nonce-too-high-error-with-metamask-and-hardhat-adc66f092cd
-
-# References
-
-- [FreeCodeCamp’s Solidity, Blockchain, and Smart Contract Course](https://www.youtube.com/watch?v=M576WGiDBdQ)
-- [Building a Full Stack NFT Marketplace on Ethereum with Polygon](https://dev.to/dabit3/building-scalable-full-stack-apps-on-ethereum-with-polygon-2cfb)
-- [Chainlist.org source code](https://github.com/antonnell/networklist-org)
-- [Import & Test a Popular NFT Smart Contract with Hardhat & Ethers](https://dev.to/jacobedawson/import-test-a-popular-nft-smart-contract-with-hardhat-ethers-12i5)
