@@ -11,7 +11,7 @@ function replaceEnvContractAddresses (marketplaceAddress, nftAddress, networkNam
   const newEnv = Object.entries(env).reduce((env, [key, value]) => {
     return `${env}${key}=${value}\n`
   }, '')
-
+  console.log("newEnv", newEnv)
   fs.writeFileSync(envFileName, newEnv)
 }
 
